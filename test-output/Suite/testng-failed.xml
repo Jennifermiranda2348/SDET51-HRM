@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="1" parallel="tests" name="Test(failed)">
+    <groups>
+      <run>
+        <include name="regression"/>
+        <include name="smoke"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.TestNG.Test0">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="demo"/>
+        </methods>
+      </class> <!-- com.TestNG.Test0 -->
+      <class name="com.TestNG.Test2">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+          <include name="trial"/>
+        </methods>
+      </class> <!-- com.TestNG.Test2 -->
+      <class name="com.TestNG.Test1">
+        <methods>
+          <include name="configAC"/>
+          <include name="configAS"/>
+          <include name="sample"/>
+          <include name="configBC"/>
+          <include name="configBS"/>
+        </methods>
+      </class> <!-- com.TestNG.Test1 -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
